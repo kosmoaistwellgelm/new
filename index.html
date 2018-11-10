@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet">
+    <link media="all" rel="stylesheet" href="css/main.css">
+    <link media="all" rel="stylesheet" href="css/media.css">
+</head>
+
+<body class="clearfix">
+    <header class="header">
+        <div class="top-bar">
+            <div class="container clearfix">
+                <a href="tel:+388888888888" class="phone">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>+38 (888) 888 88 88</span>
+                </a>
+                <form action="#" class="search-form">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <!-- Список ссылок -->
+        <div class="second-bar">
+            <div class="icon-html-5">
+                <i class="fab fa-html5"></i>
+            </div>
+            <button id="nav-opener" onclick="myClick()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="navigation">
+                <nav>
+                    <ul class="navigation-list">
+                        <li><a href="URL">About us</a></li>
+                        <li><a href="URL">Team</a></li>
+                        <li><a href="URL">Fotos</a></li>
+                        <li><a href="URL">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="hello">
+        <div>
+            <h1 class="welcome"> WELCOME TO OUR SITE</h1>
+            <!-- кнопка -->
+            <button class="btn">Show more</button>
+        </div>
+    </section>
+    <main>
+        <div class="title">
+            <h2>About us</h2>
+        </div>
+        <div class="information flex">
+            <div class="cat">
+                <img alt="About us" src='../markup/images/img01.jpg'>
+            </div>
+            <div class="advantages">
+                <h3>Our advantages</h3>
+                <ul class="ul-advantages">
+                    <li><i class="fas fa-diamond"></i>Lorem ipsum</li>
+                    <li><i class="fas fa-diamond"></i>Lorem ipsum</li>
+                    <li><i class="fas fa-diamond"></i>Lorem ipsum</li>
+                    <li><i class="fas fa-diamond"></i>Lorem ipsum</li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            var body = document.getElementsByTagName('body')[0];
+            function myClick() {
+                body.classList.toggle('nav-active');
+            }
+        </script>
+
+    </main>
+    <article>
+        <div class="title">
+            <h2>Our team</h2>
+        </div>
+        <div class="parrot flex">
+            <a>
+                <img alt="Team member" src='../markup/images/img03.jpg'>
+                <div>
+                    <h3>Full name</h3>
+                    <span>Position</span><br>
+                    <span>Lorem ipsum dolor sit amet</span><br>
+                    <span>Day of birth: 08.10</span>
+                </div>
+            </a>
+            <a>
+                <i class="fas fa-star"></i>
+                <img alt="Team member" src='../markup/images/img03.jpg'>
+                <div>
+                    <h3>Full name</h3>
+                    <span>Position</span><br>
+                    <span>Lorem ipsum dolor sit amet</span><br>
+                    <span>Day of birth: 08.10</span>
+                </div>
+            </a>
+            <a>
+                <img alt="Team member" src='../markup/images/img03.jpg'>
+                <div>
+                    <h3>Full name</h3>
+                    <span>Position</span><br>
+                    <span>Lorem ipsum dolor sit amet</span><br>
+                    <span>Day of birth: 08.10</span>
+                </div>
+            </a>
+            <a>
+                <i class="fas fa-star"></i>
+                <img alt="Team member" src='../markup/images/img03.jpg'>
+                <div>
+                    <h3>Full name</h3>
+                    <span>Position</span><br>
+                    <span>Lorem ipsum dolor sit amet</span><br>
+                    <span>Day of birth: 08.10</span>
+                </div>
+            </a>
+        </div>
+    </article>
+    <!-- Галерея с двумя фотками -->
+    <div class="container">
+        <div class="title">
+            <h2>Photos</h2>
+        </div>
+        <div class="gallery flex">
+            <a href="#" class="photo" style="background-image: url(images/img01.jpg);">
+                <div class="plus-container"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="#" class="photo" style="background-image: url(images/img02.jpg);">
+                <div  class="plus-container"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="#" class="photo" style="background-image: url(images/img01.jpg);">
+                <div class="plus-container"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="#" class="photo" style="background-image: url(images/img02.jpg);">
+                <div class="plus-container"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="#" class="photo" style="background-image: url(images/img01.jpg);">
+                <div class="plus-container"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="#" class="photo" style="background-image: url(images/img02.jpg);">
+                <div class="plus-container"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="#" class="photo" style="background-image: url(images/img01.jpg);">
+                <div class="plus-container"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="#" class="photo" style="background-image: url(images/img02.jpg);">
+                <div class="plus-container"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="#" class="photo" style="background-image: url(images/img01.jpg);">
+                <div class="plus-container"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="#" class="photo" style="background-image: url(images/img02.jpg);">
+                <div class="plus-container"><i class="fas fa-plus"></i></div>
+            </a>
+        </div>
+    </div>
+    <div class="container-foot">
+        <div class="title">
+            <h2>Contact us</h2>
+            <!-- Форма -->
+        </div>
+        <div class="feedback flex">
+            <div class="contact">
+                <h3>Use form :</h3>
+                <form action="#">
+                    <input class="contact-input" type="text" placeholder="Username">
+                    <input class="contact-input" type="text" placeholder="Last name">
+                    <input class="contact-input" type="text" placeholder="Phone">
+                    <input class="contact-input" type="text" placeholder="E-mail">
+                    <br />
+                    <label for="loremIpsum"><input type="checkbox" id="loremIpsum">loremIpsum</label>
+                    <br />
+                    <input class="btn press" type="submit" value="press!">
+                </form>
+            </div>
+            <div class="kitty">
+                <img alt="About us" src='../markup/images/img01.jpg'>
+            </div>
+        </div>
+    </div>
+    <footer class="copy">
+        <span>Example site 2018</h4></span>
+    </footer>
+
+</body>
+
+</html>
